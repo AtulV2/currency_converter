@@ -37,7 +37,7 @@ function InputBox({
                     onChange={(e) => onCurrencyChange && onCurrencyChange(e.target.value)}
                     disabled={currencyDisable}
                 >
-                    // this is JS inside curly braces and `.map` is used for loop.
+                        {/* this is JS inside curly braces and `.map` is used for loop. */}
                         {currencyOptions.map((currency) => (
                             <option key={currency} value={currency}>
                             {currency}
